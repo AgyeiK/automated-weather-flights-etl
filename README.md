@@ -37,7 +37,7 @@ Cloud SQL: Hosted a MySQL instance to store the data.
 
 Cloud Functions: Re-engineered the Python logic into serverless, event-driven functions.
 
-Cloud Scheduler: Set up Cron Jobs (0 * * * * for weather; 0 11 * * * for flights) to ensure the database stays fresh automatically.
+Cloud Scheduler: Set up Cron Jobs (0 * * * * for weather and flights) to ensure the database stays fresh automatically.
 
 # 🛠️ Engineering Challenges & Troubleshooting
 Web Scraping Edge Cases: Wikipedia tables are inconsistent. I had to write robust error handling to skip non-city rows and clean non-numeric characters from population counts.
